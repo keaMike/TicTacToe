@@ -1,21 +1,18 @@
-public class Player {
+class Player {
 
     private String name;
     private char piece;
 
-    public Player() {
-    }
-
-    public Player(String name, char piece) {
+    Player(String name, char piece) {
         this.name = name;
         this.piece = piece;
     }
 
-    public String getName() {
+    String getName() {
         return name;
     }
 
-    public char getPiece() {
+    char getPiece() {
         return piece;
     }
 }
